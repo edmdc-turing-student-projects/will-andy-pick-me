@@ -44,7 +44,7 @@ header {
   color:white;
   height: 36px;
   font-size: 24px;
-  margin-top: 5px;
+  margin-top: 10px;
   width: 90%;
 }
 
@@ -76,12 +76,14 @@ header {
 
 .clear {
   align-self: flex-end;
-  background-color: #D0CDCD;
+  background-color: #DE4841;
   height: 36px;
   font-size: 24px;
-  margin-top: 84px;
-  margin-right: 5px;
+  margin: 84px 10px 10px 10px;
+}
 
+.clear:disabled {
+  background-color: #D0CDCD;
 }
 
 .woody-box {
